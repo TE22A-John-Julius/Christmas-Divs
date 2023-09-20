@@ -12,7 +12,23 @@
     justify-content: space-between;
 }
 .logos{
-    display: flex;
+
     border: 2px solid #D6001C;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin: 5px;
+    height: 85px;
+    width: 100%;
+}
+.log{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 45px;
+}
+.vinter{
+    font-family: 'Mountains of Christmas', cursive;
 }
